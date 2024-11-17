@@ -8,3 +8,7 @@ AWS, supabase
 
 ## docs
 各種資料などを配置
+
+## data
+実証試験のデータなどを格納
+
