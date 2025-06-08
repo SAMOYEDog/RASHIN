@@ -4,10 +4,10 @@ import requests
 import pandas as pd
 import json
 import googlemaps
-gm = googlemaps.Client(key="AIzaSyA0iWzWp-eLZGU1Xal8wptqUiVZXGd6To0")
+gm = googlemaps.Client(key="")
 
 
-headers = {'X-Api-Key' : '092c5ee561d748919af210058de465a6'}
+headers = {'X-Api-Key' : ''}
 url = 'https://newsapi.org/v2/everything'
 params = {
     'qInTitle': 'homicide OR kill',
@@ -19,7 +19,7 @@ params = {
 
 # get information from news API
 response = requests.get(url, headers=headers, params=params)
-openai.api_key = "sk-svcacct-OnTbGn9qq7Ixt2KOUVF7T3BlbkFJCGOB26Xuu01jJOKJwi5S"
+openai.api_key = ""
 
 # ニュースの取得に成功した場合
 if response.ok:
