@@ -41,8 +41,8 @@ class NetworkManager: ObservableObject {
     
     init() {
         client = SupabaseClient(
-            supabaseURL: URL(string: "https://ezmwauqxeblexnetovoy.supabase.co")!,
-            supabaseKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImV6bXdhdXF4ZWJsZXhuZXRvdm95Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjI3NDE3MjQsImV4cCI6MjAzODMxNzcyNH0.ZYJz4FHu6xLUjtopSWoe340SaRABpvefovD03bYN_yA"
+            supabaseURL: URL(string: "")!,
+            supabaseKey: ""
         )
     }
     
