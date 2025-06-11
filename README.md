@@ -1,13 +1,20 @@
 # RASHIN
 
+![alt text](images/slide_1.png.png)
+
 RASHINは、位置情報データの収集・可視化・共有を目的としたアプリケーションです。iOSクライアントとサーバーサイド（AWS, supabase等）で構成されています。
 
-![alt text](images/image.png)
+![alt text](images/slide_2.png)
 
 ## 特徴
 - iOSアプリによる位置情報の取得・表示
 - サーバーサイドでのデータ管理
 - 実証試験用データの蓄積
+
+##　　実証試験結果
+San Franciscoの警察の事件に関する報告書とRASHINが取得したデータの比較画像です．
+
+![alt text](images/slide_3.png)
 
 ## ディレクトリ構成
 ```
